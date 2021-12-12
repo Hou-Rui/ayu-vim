@@ -1,3 +1,4 @@
+This is my modified version of ayu-vim. A new color version, "minimal" is added, which is identical to "mirage" except that the minimal version does not apply background color (so that the background color of terminal is displayed).
 
 🌟🌟🌟 **Looking for a maintainer.** 🌟🌟🌟 This project needs your care and knowledge of VIM. Open an issue if you want to take that role.
 
