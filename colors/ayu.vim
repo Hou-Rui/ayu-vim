@@ -15,6 +15,7 @@ let g:colors_name = "ayu"
 let s:palette = {}
 
 let s:palette.bg        = {'dark': "#0F1419",  'light': "#FAFAFA",  'mirage': "#212733",  'minimal': 'NONE'}
+let s:palette.splitline = {'dark': "#0F1419",  'light': "#FAFAFA",  'mirage': "#212733",  'minimal': '#212733'}
 
 let s:palette.comment   = {'dark': "#5C6773",  'light': "#ABB0B6",  'mirage': "#5C6773",  'minimal': "#5C6773"}
 let s:palette.markup    = {'dark': "#F07178",  'light': "#F07178",  'mirage': "#F07178",  'minimal': "#F07178"}
@@ -97,10 +98,9 @@ exe "hi! DiffAdd"       .s:fg_string      .s:bg_panel       .s:fmt_none
 exe "hi! DiffChange"    .s:fg_tag         .s:bg_panel       .s:fmt_none
 exe "hi! DiffText"      .s:fg_fg          .s:bg_panel       .s:fmt_none
 exe "hi! ErrorMsg"      .s:fg_fg          .s:bg_error       .s:fmt_stnd
-exe "hi! VertSplit"     .s:fg_bg          .s:bg_none        .s:fmt_none
+exe "hi! VertSplit"     .s:fg_splitline   .s:bg_none        .s:fmt_none
 exe "hi! Folded"        .s:fg_fg_idle     .s:bg_panel       .s:fmt_none
 exe "hi! FoldColumn"    .s:fg_none        .s:bg_panel       .s:fmt_none
-" exe "hi! SignColumn"    .s:fg_none        .s:bg_panel       .s:fmt_none
 exe "hi! SignColumn"    .s:fg_none        .s:bg_none       .s:fmt_none
 "   Incsearch"
 
