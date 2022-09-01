@@ -33,6 +33,7 @@ let s:palette.panel     = {'dark': "#14191F",  'light': "#FFFFFF",  'mirage': "#
 let s:palette.guide     = {'dark': "#2D3640",  'light': "#D9D8D7",  'mirage': "#3D4751",  'minimal': "#3D4751"}
 let s:palette.line      = {'dark': "#151A1E",  'light': "#F3F3F3",  'mirage': "#242B38",  'minimal': "#242B38"}
 let s:palette.selection = {'dark': "#253340",  'light': "#F0EEE4",  'mirage': "#343F4C",  'minimal': "#343F4C"}
+let s:palette.menusel   = {'dark': "#3E576C",  'light': "#B8B6AF",  'mirage': "#425161",  'minimal': "#425161"}
 let s:palette.fg        = {'dark': "#E6E1CF",  'light': "#5C6773",  'mirage': "#D9D7CE",  'minimal': "#D9D7CE"}
 let s:palette.fg_idle   = {'dark': "#3E4B59",  'light': "#828C99",  'mirage': "#607080",  'minimal': "#607080"}
 
@@ -108,7 +109,7 @@ exe "hi! ModeMsg"       .s:fg_string      .s:bg_none        .s:fmt_none
 exe "hi! MoreMsg"       .s:fg_string      .s:bg_none        .s:fmt_none
 exe "hi! NonText"       .s:fg_guide       .s:bg_none        .s:fmt_none
 exe "hi! Pmenu"         .s:fg_fg          .s:bg_selection   .s:fmt_none
-exe "hi! PmenuSel"      .s:fg_fg          .s:bg_selection   .s:fmt_revr
+exe "hi! PmenuSel"      .s:fg_fg          .s:bg_menusel     .s:fmt_none
 "   PmenuSbar"
 "   PmenuThumb"
 exe "hi! Question"      .s:fg_string      .s:bg_none        .s:fmt_none
