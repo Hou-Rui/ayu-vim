@@ -248,6 +248,12 @@ exe "hi! GitGutterChange"       .s:fg_tag        .s:bg_none        .s:fmt_none
 exe "hi! GitGutterDelete"       .s:fg_markup     .s:bg_none        .s:fmt_none
 exe "hi! GitGutterChangeDelete" .s:fg_function   .s:bg_none        .s:fmt_none
 
+" coc.nvim
+" ---------
+" exe "hi! DiagnosticVirtualTextHint" .s:fg_guide   .s:bg_none        .s:fmt_none
+exe "hi! DiagnosticHint"            .s:fg_guide   .s:bg_none        .s:fmt_none
+exe "hi! DiagnosticError"           .s:fg_markup  .s:bg_none        .s:fmt_none
+
 "}}}
 
 " Diff Syntax Highlighting:"{{{
