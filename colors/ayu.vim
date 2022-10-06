@@ -279,7 +279,7 @@ hi! link diffAdded String
 "}}}
 "
 " This is needed for some reason: {{{
-
-let &background = s:style
+" This is no longer needed in neovim anymore
+" let &background = s:style
 
 " }}}
