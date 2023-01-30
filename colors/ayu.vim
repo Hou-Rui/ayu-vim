@@ -253,6 +253,11 @@ exe "hi! GitGutterChangeDelete" .s:fg_function   .s:bg_none        .s:fmt_none
 " exe "hi! DiagnosticVirtualTextHint" .s:fg_guide   .s:bg_none        .s:fmt_none
 exe "hi! DiagnosticHint"            .s:fg_guide   .s:bg_none        .s:fmt_none
 exe "hi! DiagnosticError"           .s:fg_markup  .s:bg_none        .s:fmt_none
+exe "hi! Pmenu"                     .s:fg_fg      .s:bg_panel       .s:fmt_none
+exe "hi! PmenuSel"                  .s:fg_fg      .s:bg_selection   .s:fmt_none
+exe "hi! PmenuSbar"                 .s:fg_none    .s:bg_line        .s:fmt_none
+exe "hi! PmenuThumb"                .s:fg_none    .s:bg_guide       .s:fmt_none
+
 
 "}}}
 
