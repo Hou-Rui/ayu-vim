@@ -285,6 +285,8 @@ hi! link diffAdded String
 "
 " This is needed for some reason: {{{
 " This is no longer needed in neovim anymore
-" let &background = s:style
+if !has("nvim")
+  let &background = s:style
+endif
 
 " }}}
